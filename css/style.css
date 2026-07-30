@@ -1,1 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #fdf7f9;
+    color: #333;
+    overflow-x: hidden;
+}
+
+.cover {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(255,255,255,0.6), rgba(255,255,255,0.6)),
+                url("../assets/img/cover.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.cover-content {
+    background: rgba(255,255,255,0.85);
+    padding: 40px;
+    border-radius: 20px;
+    max-width: 500px;
+}
+
+.invite {
+    letter-spacing: 3px;
+    font-size: 14px;
+    color: #a04b7d;
+    margin-bottom: 15px;
+}
+
+.cover-content h1 {
+    font-size: 48px;
+    color: #8b2e5c;
+    margin-bottom: 20px;
+}
+
+.cover-content p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+#openInvitation {
+    padding: 15px 35px;
+    border: none;
+    border-radius: 50px;
+    background: #d46aa2;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#openInvitation:hover {
+    background: #b54d86;
+}
